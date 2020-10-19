@@ -359,7 +359,14 @@ button {
 
 
 /************************************************ Footer ************************************************/
-
+.foot1-bg {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
 
 
 @media (min-width: 1200px) {
