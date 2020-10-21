@@ -367,7 +367,7 @@ button {
 	
 
 .carousel-caption h3{
-	margin-top: 300px;
+	margin-top: 400px;
 	float: left;
 	font-size: 60px;
 	/*font-weight: bold;*/
@@ -396,6 +396,7 @@ button {
 	font-weight: bold;
 	letter-spacing: 2px;
     margin-left: -1vw;
+	margin-top: 2vw;
 
 
 }
@@ -409,8 +410,8 @@ button {
 	font-weight: bold;
 	background-color: #804000;
 	font-family: Montserrat;
-	margin-top: 180px;
-	margin-left: -80vw;
+	margin-top: 1px;
+	margin-left: -70vw;
 	border: 0;
     padding: 20px;
 }
