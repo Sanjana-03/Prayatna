@@ -398,7 +398,8 @@ button {
 .footer-links
 {
   padding-left:0;
-  list-style:none
+  list-style:none;
+ margin-top:10px;
 }
 .footer-links li
 {
