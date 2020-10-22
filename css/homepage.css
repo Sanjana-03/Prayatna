@@ -82,8 +82,7 @@ h1{
     color:#000000;
     font-family: Montserrat;
     width: 60%;
-    margin-left: 1vw;
-    margin-bottom: -10rem;
+    margin: auto;
 	text-shadow: 2px 2px 5px white;
 
 }
@@ -94,6 +93,7 @@ ul{
 
 #diff h3{
 	color: #fff;
+	text-shadow: 2px 2px 5px black;
 }
 
 
@@ -500,8 +500,7 @@ button {
     color:#000000;
     font-family: Montserrat;
     width: 60%;
-    margin-left: 1vw;
-    margin-bottom: -5rem;
+    margin: auto;
 	text-shadow: 2px 2px 5px white;
 
 }
@@ -554,6 +553,9 @@ h1{
     margin-left: -1vw;
 
 }
+	#diff h3{
+		color: #fff;
+		text-shadow: 2px 2px 5px black;
 
 
 .division p{
