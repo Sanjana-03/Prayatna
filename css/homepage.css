@@ -11,6 +11,7 @@
 }
 h1{
 	text-shadow: 1px 1px 3px black;
+	
 }
 
 *{
@@ -82,7 +83,7 @@ h1{
     font-family: Montserrat;
     width: 60%;
     margin-left: 1vw;
-    margin-bottom: -5rem;
+    margin-bottom: -10rem;
 	text-shadow: 2px 2px 5px white;
 
 }
