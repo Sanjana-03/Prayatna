@@ -368,6 +368,10 @@ button {
   color:#737373;
 	bottom: 0;
 margin-top: -50px;
+	min-height: calc(100vh - 70px);
+}
+.content {
+  flex: 1 0 auto;
 }
 .site-footer hr
 {
