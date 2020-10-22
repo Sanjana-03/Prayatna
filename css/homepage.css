@@ -360,14 +360,125 @@ button {
 
 /************************************************ Footer ************************************************/
 
-
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+	bottom: 0;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
 
 @media (min-width: 1200px) and (max-width: 1600px){
 
 	
 
 .carousel-caption h3{
-	margin-top: 400px;
+	margin-top: 300px;
 	float: left;
 	font-size: 60px;
 	/*font-weight: bold;*/
@@ -384,7 +495,7 @@ button {
 	height: 100px;
 	width: 100px;
 	margin: 10px 15px 10px 0;
-	margin-left: -3vw;
+	margin-left: 2vw;
  
 }
 
@@ -396,7 +507,6 @@ button {
 	font-weight: bold;
 	letter-spacing: 2px;
     margin-left: -1vw;
-	margin-top: 2vw;
 
 
 }
@@ -410,8 +520,8 @@ button {
 	font-weight: bold;
 	background-color: #804000;
 	font-family: Montserrat;
-	margin-top: 1px;
-	margin-left: -70vw;
+	margin-top: 180px;
+	margin-left: -80vw;
 	border: 0;
     padding: 20px;
 }
